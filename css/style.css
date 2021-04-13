@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: rgb(3, 23, 51);
+    background: rgb(206, 0, 249);
+    background: linear-gradient(210deg, rgba(206, 0, 249, 0.6) 0%, rgba(0, 101, 255, 0.9) 46%, rgba(0, 255, 207, 1) 100%);
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 88px;
+    margin-bottom: 1rem;
+}
+
+.container-countdown {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-size: 84px;
+    margin: 1rem 2rem;
+}
+
+.countdownEl {
+    text-align: center;
+    justify-content: space-around;
+    width: 200px;
+
+}
+
+.countdownEl span {
+    font-size: 32px;
+}
